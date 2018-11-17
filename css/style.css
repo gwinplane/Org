@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1265px;
+	
+}
+
+/*Черный баннер с меню (красный ховер)*/
+
+.header {
+	background: #f6f2f2;
+}
+
+.banner__nav {
+	height: 90px;
+	background: #313030;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header__wrap {
+	padding: 30px 0;
+}
+
+
+.header__nav__ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	height: 100%;
+}
+
+.header__nav__item a {
+	color: #fff;
+	padding: 0 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Open Sans;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.header__nav__item a {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.header__nav__item a:hover {
+	background: #ff3f40;
+}
+
+/*конец хедера*/
+
+.sect__video {
+	padding-bottom: 112px;
+	background: #f6f2f2;
+}
+.sect__video__wrap {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.video__right {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 550px;
+	height: 350px;
+}
+
+.organais {
+	font-size: 60px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 73px;
+	letter-spacing: 3px;
+	padding-bottom: 23px;
+
+}
+
+
+.info__left--micro {
+	font-family: Open Sans;
+	font-size: 14px;
+	color: #6f6d6d;
+}
+
+
+.shariy {
+	width: 550px;
+	height: 350px;
+	object-fit: fill; /*новое некроссбраузерное свойство*/
+}
+
+.but__hold {
+	padding-top: 60px;
+}
+
+.button {
+	outline: none;
+	border: 0;
+	height: 60px;
+	width: 230px;
+	background: #ff2d2d;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+}
