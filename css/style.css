@@ -99,7 +99,8 @@ img {
 .info__left--micro {
 	font-family: Open Sans;
 	font-size: 14px;
-	color: #6f6d6d;
+	color: #000;
+	line-height: 24px;
 }
 
 
@@ -123,4 +124,106 @@ img {
 	font-weight: bold;
 	font-size: 18px;
 	color: #fff;
+	cursor: pointer;
+}
+
+
+.button {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button:hover {
+	background-color: #e64437;
+}
+
+.button:active {
+	background-color: #b81609;
+}
+
+
+.prov__wrap {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 87px;
+	padding-bottom: 55px;
+	border-bottom: 2px #ececec solid;
+
+}
+
+.provide {
+	font-size: 42px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	line-height: 50px;
+	letter-spacing: 3px;
+	padding-bottom: 23px;
+}
+
+.provide_text {
+	text-align: left;
+	line-height: 24px;
+}
+
+.prov__right {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.prov__left {
+	width: 50%;
+}
+
+
+.red {
+	color: #ff3b4a;
+	font-size: 40px;
+}
+
+.flex_ro {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 0 20px 50px 20px;
+}	
+
+
+.title_prof {
+	font-size: 24px;
+	color: #000;
+	font-weight: 600;
+	padding-top: 25px;
+	padding-bottom: 11px;
+}
+ 
+.text_prof {
+	color: #000;
+} 
+
+.but__hold_left {
+	padding-top: 60px;
+}
+
+.button_left {
+	outline: none;
+	border: 2px solid #ff2d2d;
+	height: 60px;
+	width: 230px;
+	background: #fff;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ff2d2d;
+	cursor: pointer;
+}
+
+.button_left:hover {
+	background-color: #ff6600;
+}
+
+.button_left:active {
+	background-color: #ffcc99;
 }
