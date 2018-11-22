@@ -227,3 +227,63 @@ img {
 .button_left:active {
 	background-color: #ffcc99;
 }
+
+
+
+.prod_title {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.prod_title__big {
+	font-family: Open Sans;
+	font-size: 42px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+
+.prod_title__small {
+	font-family: Open Sans;
+	font-size: 16px;
+	text-align: center;
+	line-height: 29px;
+	padding-bottom: 26px;
+}
+
+.prod_title__small {
+  position: relative;
+  /*z-index : 1;*/
+  /*margin-bottom: 85px;*/
+}
+
+.prod_title__small:before {
+  content : "";
+  position: absolute;
+  left: 39%;
+  bottom  : 0;
+  /*height  : 1px;*/
+  width   : 24%;  /* or 100px */
+  border-bottom: 3px #ff3b3b solid;
+}
+
+.prod__nav {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	font-size: 22px;
+	font-weight: 600;
+	
+}
+
+.prod__nav_item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+.prod__nav_item.active {
+	color: #ff2d2d;
+}
