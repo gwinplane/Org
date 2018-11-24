@@ -12,6 +12,7 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
+
 }
 
 .container {
@@ -237,13 +238,14 @@ img {
     padding: 90px 0;
 }
 
-.prod_title__big {
+.all_big {
 	font-family: Open Sans;
 	font-size: 42px;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding-bottom: 18px;
 }
+
 
 .prod_title__small {
 	font-family: Open Sans;
@@ -286,4 +288,136 @@ img {
 
 .prod__nav_item.active {
 	color: #ff2d2d;
+}
+
+.tab__pic {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px -15px 0 -15px;
+}
+
+.tab__pic__image {
+	padding: 10px;
+    width: 25%;
+}
+
+
+
+
+
+ .team_wrap__up__meet_team {
+	display: flex;
+    flex-direction: column;
+
+    padding: 90px 0;
+}
+
+
+.team_wrap__up__meet_team__small {
+	font-family: Open Sans;
+	font-size: 16px;
+	text-align: left;
+	line-height: 29px;
+	padding-bottom: 26px;
+}
+
+.team_wrap__up__meet_team__small {
+  position: relative;
+  /*z-index : 1;*/
+  /*margin-bottom: 85px;*/
+}
+
+.team_wrap__up__meet_team__small:before {
+  content : "";
+  position: absolute;
+  left: 0%;
+  bottom  : 0;
+  /*height  : 1px;*/
+  width   : 11%;  /* or 100px */
+  border-bottom: 3px #ff3b3b solid;
+}
+
+.team_wrap__down{
+	display: flex;
+}
+
+.team_wrap__down__wrapper {
+	padding-left: 70px;
+}
+
+.team_wrap__down__auther_big {
+	font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.team_wrap__down__auther {
+	display: flex;
+	flex-direction: column;
+}
+
+.team_wrap__down__auther_small {
+	text-align: left;
+	padding-bottom: 35px;
+	font-size: 16px;
+	line-height: 29px;
+}
+
+.team_wrap__down__social a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+}	
+
+
+.team_wrap__down__social {
+	margin: 0 -15px 0 -15px;
+}
+
+.team_wrap__down__social a {
+	 padding: 0 15px 0 15px;
+}
+
+
+.team_wrap__down__image {
+	display: flex;
+	margin: 0 -10px 0 -10px;
+	padding-top: 60px;
+
+}
+
+	/*Выплывающая подсказка на картинке при наведении*/
+
+.team_wrap__down__image__pic {
+	padding: 0 10px 0 10px;
+	position: relative;
+}
+
+.image-caption {
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, .5);
+	left: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 6px 0;
+    /*/*display: none;*/  /*если без анимации*/
+    opacity: 0; /*прозрачный*/
+    transition-duration: 0.9s;
+}
+
+.team_wrap__down__image__pic img {
+	display: block;
+}
+
+.team_wrap__down__image__pic:hover .image-caption {
+	/*display: block;*/ /*если без анимации*/
+	opacity: 1;  /*непрозрачный*/
+
 }
