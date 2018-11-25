@@ -14,6 +14,9 @@ img {
 	height: auto;
 
 }
+.wrapper {
+	overflow-x: hidden;
+}
 
 .container {
 	margin: 0 auto;
@@ -305,6 +308,7 @@ img {
 
 
 
+
  .team_wrap__up__meet_team {
 	display: flex;
     flex-direction: column;
@@ -339,6 +343,7 @@ img {
 
 .team_wrap__down{
 	display: flex;
+	padding-bottom: 120px;
 }
 
 .team_wrap__down__wrapper {
@@ -417,7 +422,210 @@ img {
 }
 
 .team_wrap__down__image__pic:hover .image-caption {
-	/*display: block;*/ /*если без анимации*/
+	/*display: block;*/
 	opacity: 1;  /*непрозрачный*/
 
 }
+
+
+.sub_wrap {
+	background: #f5f0dd;
+}
+
+
+
+.sub_wrap__tips {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 140px;
+}
+
+.sub_wrap__tips__title {
+	font-size: 42px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.sub_wrap__tips__title--small {
+	color: #fff;
+	font-size: 16px;
+}
+
+.sub_inputs {
+	display: flex;
+	justify-content: center;
+	padding-top: 63px;
+	padding-bottom: 143px;
+}
+
+.inpt_bal {
+	Border: none; 
+	outline: none;
+	width: 520px;
+	height: 80px;
+	font-size: 16px;
+	padding-left: 35px;
+	border-radius: 6px;
+}
+
+.but__hold__sub {
+	padding-left: 30px;
+}
+
+.button_sub {
+	outline: none;
+	border: 0;
+	height: 80px;
+	width: 215px;
+	background: #ff2d2d;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+.button {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button_sub:hover {
+	background-color: #e64437;
+}
+
+.button_sub:active {
+	background-color: #b81609;
+}
+
+/* плавное изменение прозрачности  placeholder-а при фокусе */
+
+.inpt_bal::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.inpt_bal::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.inpt_bal:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.inpt_bal:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.inpt_bal:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.inpt_bal:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.inpt_bal:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.inpt_bal:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.message__wrap {
+	display: flex;
+}
+
+.mess_left__title {
+	display: flex;
+	flex-direction: column;
+}
+
+.mess_left {
+	width: 100%;
+}
+
+
+
+
+.input_name {
+	background: #e5e5e5;
+	width: 340px;
+	height: 65px;
+	border-radius: 10px;
+}
+
+.mess_left__form__input_all {
+	display: flex;
+}
+
+
+.mess_left__title__tourch_light {
+	padding-bottom: 50px;
+}
+.mess_left__form__email {
+	padding-left: 55px;
+}
+
+.mess_left__form__message__mess {
+	background: #e5e5e5;
+	width: 730px;
+	height: 245px;
+	border-radius: 10px;
+	Border: none; 
+	outline: none;
+	padding-left: 55px;
+    padding-top: 40px;
+    padding-right: 55px;
+    /* padding-bottom: 40px; */
+    resize: none;
+}
+
+.mess_left__form__message {
+	padding-top: 50px;
+}
+.inpt_mes{
+	padding-bottom: 170px;
+	font-size: 18px;
+}
+
+.button_sub__mess {
+	padding-left: 0;
+	text-transform: uppercase;
+	width: 725px;
+	height: 70px;
+	
+}
+.but__hold__sub__mess {
+	padding-left: 0;
+	padding-top: 45px;
+}
+
+.all__forms {
+	display: flex;
+	padding-top: 75px;
+}
+
+.mess_right {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-grow: 1;
+	background: #2d2d2d;
+	margin-left: 110px;
+}
+
+.mess_right:before {
+	content: "";
+	position: absolute;
+	background: #2d2d2d;
+	top: 0;
+    bottom: 0;
+    width: 1000%;
+    left: 100%;
+}
+
+
+.mess_right__title {
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 75px;
+}
+.adr {
+	color: #fff;
+	font-size: 16px;
+}
+
+.contacts {
+	list-style-type: none;
+}
+
+.contacts li {
+	padding: 20px 0 20px 75px;
+}
+
